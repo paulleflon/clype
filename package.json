@@ -1,0 +1,34 @@
+{
+  "name": "clype",
+  "version": "0.1.0",
+  "description": "A typing speed test in the command line",
+  "main": "./dist/index.js",
+  "bin": {
+    "clype": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hickacou/clype.git"
+  },
+  "author": "Hickacou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hickacou/clype/issues"
+  },
+  "homepage": "https://github.com/Hickacou/clype#readme",
+  "keywords": [
+    "cli",
+    "typescript",
+    "nodejs",
+    "typing",
+    "speed"
+  ],
+  "devDependencies": {
+    "@types/node": "^12.12.2",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  }
+}
